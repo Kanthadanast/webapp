@@ -1,0 +1,79 @@
+body {    
+    font-family: "Noto Sans", sans-serif;    
+    margin: 0;    
+    padding: 0;    
+    background-color: #ffcbe8;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    min-height: 100vh;  
+}    
+
+.profile-container {    
+    background: #fff;    
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+    width: 90%;    
+    max-width: 1500px;    
+    padding: 20px;    
+    text-align: center;  
+}  
+
+.profile-container h1 {    
+    font-size: 30px;    
+    font-weight: bold;  
+}  
+
+.profile-container p {    
+    font-size: 20px;  
+}    
+
+.profile-header {    
+    margin-bottom: 40px;  
+}    
+
+.profile-pic {    
+    width: 230px;    
+    height: 240px;    
+    border-radius: 20%;    
+    object-fit: cover;    
+    margin-bottom: 40px;  
+}    
+
+.profile-name {    
+    font-size: 24px;    
+    color: #333;    
+    margin: 0;  
+}    
+    
+.profile-title {    
+    font-size: 16px;    
+    color: #666;    
+    margin: 5px 0 0;  
+}    
+
+.profile-section {    
+    text-align: left;    
+    margin-top: 20px;  
+}    
+
+.profile-section h2 {    
+    font-size: 20px;    
+    color: #333;    
+    border-bottom: 2px solid #f4f4f4;    
+    padding-bottom: 5px;    
+    margin-bottom: 10px;  
+}    
+
+.profile-section p,   
+.profile-section ul {    
+    font-size: 14px;    
+    color: #555;    
+    line-height: 1.6;  
+}    
+
+.profile-section ul {    
+    list-style-type: disc;    
+    margin: 0;    
+    padding-left: 20px;  
+}  
